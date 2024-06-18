@@ -2,7 +2,7 @@
 
 
 
-# LAB | localStorage Lab
+# LAB | DOM Manipulation Lab
 
 <br>
 
@@ -14,8 +14,7 @@
   Upon completion of this exercise, you will be able to:
 
   - Manipulate the dom for creating websites
-  - Using localStorage to persist data
-  - Switch pages based on clicking events
+  - Using JS logic like forEach, if statements, for loops to manipulate the DOM
 
 <br>
   <hr> 
@@ -24,20 +23,22 @@
   ## Steps:
 - you have a homepage with listings for each product.
 
-- In the js file we have a function called seeListing that takes 3 arguemnts:
+- In the js file we have a function called addToShoppingCart that takes 3 arguemnts:
  title, price, and picture
 
-- when the button "see listing" is clicked the function should be called with the values for the title, price, and picture
-![alt text](<Screenshot 2024-06-17 220632-1.png>)
-
-![alt text](<Screenshot 2024-06-17 220649.png>)
-
-- Now write the code in the seeListing function to get the values and save the value into localStorage. The key should be "listing". Remember that localStorage only takes strings.
+- when the button "Add To Shopping Cart" is clicked the function should be called with the values for the title, price, and picture
 
 
-- The last thing this function should do is relocate us to the listingPage.html. Remember to use relative pathing
+- Now write the code in the addToShoppingCart function to take the 3 arguements and store them in an object, add the newly create object to an array and then display the array onto the page
 
-- In order the seeListing() function should do the following
+
+- Everytime we click the "Add To Shopping Cart" that listing should appear in the section below.
+
+- Also display the total of the price of the items in the shopping cart
+
+- BONUS 1: After clicking the "Add To Shopping Cart" button check that the item isnt already in the cart. IF it is then alert the user that they already added the item to the shopping cart
+
+- BONUS 2: The user Should be able to add an item twice
 
     1. set the localStorage with the 3 argumenets **HINT** remember we can only store strings in local storage
     2. redirect the user to the listingPage.html **HINT** remember the relative pathing
