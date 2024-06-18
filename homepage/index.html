@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Homepage</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="mailto:amazon@amazon.com">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./shopping-cart/shoppingCart.html"><img id="cart-img" src="./images/shopping-cart.png" alt=""></a> 
+                </li>
+                <li id="cart-num">
+                  
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Our Store</h1>
+        <p>Discover amazing products just for you</p>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section class="products">
+        <h2>Featured Products</h2>
+
+        <div id="products-container" class="grid-container">
+            <div class="img-container"><img src="https://m.media-amazon.com/images/I/51-g5FNGkWL._AC_SL1500_.jpg" alt="Vintage Leather Jacket" class="prod listing-images">
+                <h3 class="prod">Mini Fridge</h3>
+                <p class="prod">$99.99</p>
+                <button onclick="addToShoppingCart('Mini Fridge','99.99','https://m.media-amazon.com/images/I/51-g5FNGkWL._AC_SL1500_.jpg')"
+                    class="btn">Add To Shopping Cart</button>
+            </div>
+            <div class="img-container"><img src="https://m.media-amazon.com/images/I/71NN0YO-gVL._AC_SL1500_.jpg" alt="Classic Blue Jeans" class="prod listing-images">
+                <h3 class="prod">Water Kettle</h3>
+                <p class="prod">$10.99</p>
+                <button 
+                    class="btn">Add To Shopping Cart</button>
+            </div>
+            <div class="img-container"><img src="https://m.media-amazon.com/images/I/71zgp1cMVKL._AC_SL1500_.jpg" alt="Stylish Sunglasses" class="prod listing-images">
+                <h3 class="prod">Work Station Table</h3>
+                <p class="prod">$40.99</p>
+                <button 
+                    class="btn">Add To Shopping Cart</button>
+            </div >
+            <div class="img-container"><img src="https://m.media-amazon.com/images/I/51UhN8wFMDL._AC_SL1500_.jpg" alt="Cozy Knit Sweater" class="prod listing-images">
+                <h3 class="prod">Razor Scooter</h3>
+                <p class="prod">$79.99</p>
+                <button 
+                    class="btn">Add To Shopping Cart</button>
+            </div>
+            <div class="img-container"><img src="https://m.media-amazon.com/images/I/614izepm28L._AC_SL1500_.jpg" alt="Sporty Sneakers" class="prod listing-images">
+                <h3 class="prod">Gaming Chair</h3>
+                <p class="prod">$110.99</p>
+                <button
+                    class="btn">Add To Shopping Cart</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="shopping-cart-section">
+        <h1>Shopping Cart</h1>
+        <div id="shopping-cart-container">
+       <!-- CODE GOES HERE -->
+        <!-- SHOPPING CART ITEMS SHOULD APPEAR HERE -->
+
+        </div>
+        </div>
+        
+
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Refund Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">            </a>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_Blue.svg" alt="Twitter">
+            </a>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
