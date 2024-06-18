@@ -34,9 +34,9 @@
 
 - Everytime we click the "Add To Shopping Cart" that listing should appear in the section below.
 
-- Also display the total of the price of the items in the shopping cart
+- Now lets try to display the total of the price of the items in the shopping cart
 
 - BONUS 1: After clicking the "Add To Shopping Cart" button check that the item isnt already in the cart. IF it is then alert the user that they already added the item to the shopping cart
 
-- BONUS 2: The user Should be able to add an item twice
+- BONUS 2: The user Should be able to add an item twice. Add a quantity to each item that is added. If a new item is added to the shopping cart the quantity should be 1.
 
