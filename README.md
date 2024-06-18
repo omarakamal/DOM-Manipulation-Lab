@@ -29,7 +29,7 @@
 - when the button "Add To Shopping Cart" is clicked the function should be called with the values for the title, price, and picture
 
 
-- Now write the code in the addToShoppingCart function to take the 3 arguements and store them in an object, add the newly create object to an array and then display the array onto the page
+- Now write the code in the addToShoppingCart function to take the 3 arguements and add them to the page
 
 
 - Everytime we click the "Add To Shopping Cart" that listing should appear in the section below.
